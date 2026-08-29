@@ -1,1 +1,25 @@
 
+# Multimedia App Configuration
+# Copy this file to config.yaml and customize as needed.
+
+# Input/Output Paths
+images_dir: "Images/"
+output_video_name: "slide_show.mp4"
+
+# Video & Slideshow Settings
+default_fps: 24
+frame_delay_ms: 15
+default_image_duration: 3.0  # seconds per image
+
+# Window Configuration
+window_width: 1000
+window_height: 700
+window_title: "Images Slideshow & Video Player"
+
+# Processing Options
+enable_preview: true
+auto_save_output: true
+
+# Logging & Debug
+verbose: true
+log_file: "app_activity.log"
