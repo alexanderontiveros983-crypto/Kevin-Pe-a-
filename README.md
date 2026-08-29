@@ -52,5 +52,6 @@ multimedia-project/ ├── main.py # Código fuente principal (Reproductor de
 
 Instrucciones de Ejecución
 Clonar el repositorio:
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ddf2a52d-ed0f-49cb-8068-3935cd8e0711" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2456d346-ad9f-416f-b99c-18be92c89d53" />
+
 
