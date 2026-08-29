@@ -1,1 +1,65 @@
+# 🎞️ MediaStream & Slideshow Studio
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![GUI](https://img.shields.io/badge/UI-Tkinter-orange.svg)]()
+[![Engine](https://img.shields.io/badge/Processing-OpenCV%20%7C%20MoviePy-green.svg)]()
+
+> **Suite Multimedia de Escritorio** | Solución integral para la reproducción fluida de video y la compilación automatizada de secuencias fotográficas a formato MP4.
+
+---
+
+## 📌 Visión General
+
+**MediaStream & Slideshow Studio** es una herramienta de escritorio ligera desarrollada en Python. Combina el control de reproducción multimedia en tiempo real con un motor de conversión capaz de transformar colecciones de imágenes estáticas en presentaciones de video dinámicas.
+
+### 💡 Justificación Técnica
+Resuelve la necesidad de contar con una alternativa *open-source*, rápida y sin dependencias de software comercial pesado. Permite a usuarios y desarrolladores manipular archivos locales, ajustar temporalizaciones por fotograma y previsualizar resultados dentro de una misma interfaz unificada.
+
+---
+
+## ⚙️ Módulos Principales
+
+| Módulo | Función Principal | Tecnologías Clave |
+| :--- | :--- | :--- |
+| **🎥 Reproductor de Video** | Control de flujo (Play/Pausa), renderizado de fotogramas y navegación de archivos. | `Tkinter`, `OpenCV` |
+| **🖼️ Generador de Slideshows** | Selección múltiple de imágenes, ajuste de tiempos y renderizado a `.mp4`. | `MoviePy`, `Tkinter FileDialog` |
+
+---
+
+## 📐 Metodología de Trabajo: Kanban Ágil
+
+Se implementó una estrategia de desarrollo **Ágil mediante Kanban**, priorizando la entrega por componentes:
+
+* **Modularidad:** Separación independiente del motor gráfico y del motor de renderizado.
+* **Asignación Transparente:** Gestión de tareas e hitos divididos mediante *GitHub Projects*.
+* **Adaptabilidad:** Ajuste continuo en la lógica de procesamiento de fotogramas sin afectar la GUI.
+
+---
+
+## 👤 Historias de Usuario (User Stories)
+
+### 🔹 HU-01: Reproducción de Video Local
+* **Como** usuario de la aplicación,  
+* **Quiero** seleccionar y cargar un archivo de video local mediante un explorador de archivos,  
+* **Para** reproducirlo de forma controlada en la interfaz gráfica.
+
+### 🔹 HU-02: Control de Reproducción Multimedia
+* **Como** usuario del sistema,  
+* **Quiero** utilizar botones de reproducción, pausa y reanudación,  
+* **Para** gestionar la visualización de los fotogramas del video en tiempo real.
+
+### 🔹 HU-03: Generación Automática de Slideshows
+* **Como** usuario,  
+* **Quiero** seleccionar múltiples imágenes y definir sus tiempos de duración personalizados,  
+* **Para** compilarlas automáticamente en un archivo de video en formato MP4.
+
+---
+
+## 📂 Estructura del Repositorio
+
+```directory
+multimedia-project/
+├── Images/               # Recurso gráfico del sistema (front.jpg, second.png)
+├── main.py               # Núcleo de la aplicación (GUI + Lógica Multimedia)
+├── README.md             # Documentación técnica
+└── slide_show.mp4        # Salida de video renderizada por el sistema
