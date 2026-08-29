@@ -40,7 +40,17 @@ multimedia-project/ ├── main.py # Código fuente principal (Reproductor de
 
 Instrucciones de Ejecución
 Clonar el repositorio:
-git clone <URL_DE_TU_REPOSITORIO>
-cd multimedia-project
+<img width="821" height="191" alt="image" src="https://github.com/user-attachments/assets/35d4013a-5b5f-4f7d-94ce-3d29920d6ddd" />
+
+<img width="565" height="272" alt="image" src="https://github.com/user-attachments/assets/fbd8c344-8de8-4466-b990-a389a243cb25" />
+
+<img width="1006" height="1600" alt="image" src="https://github.com/user-attachments/assets/5fd109d1-c1cb-48c6-b164-7d4f88e8c0bc" />
+
+Retrospectiva del Proyecto - Práctica 1
+¿Qué funcionó bien?La división del código en dos módulos visuales claros (videoGUI y el generador de slideshows) facilitó la separación de responsabilidades y la integración de las librerías gráficas y multimedia.El uso de GitHub Projects nos ayudó a distribuir las tareas de manera transparente y organizada entre los integrantes del equipo.  La validación interactiva mediante ventanas emergentes (messagebox) permitió mejorar la retroalimentación visual hacia el usuario durante la carga de archivos.
+¿Qué no funcionó o generó retrasos?La sincronización de los tiempos de los fotogramas y la gestión de rutas relativas para las imágenes iniciales generaron pequeñas inconsistencias iniciales.La resolución de conflictos menores de Git al momento de sincronizar los archivos generados automáticamente de video (slide_show.mp4).
+¿Qué mejoras implementaremos para el siguiente proyecto?Configurar adecuadamente el archivo .gitignore desde la primera sesión para evitar subir archivos caché innecesarios o salidas de video temporales.Establecer convenciones de mensajes de commit más estandarizadas vinculadas directamente al número de Issue de GitHub Projects para mejorar el control de versiones colaborativo.
+
+
 
 
