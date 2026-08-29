@@ -1,1 +1,9 @@
 
+# 1. Ir a la carpeta del proyecto
+Set-Location "C:\Users\mater\Documents\PROGRAMAS\MULTIMEDIA"
+
+# 2. Instalar o verificar dependencias de Python
+& ".\.venv\Scripts\python.exe" -m pip install opencv-python pillow moviepy
+
+# 3. Ejecutar la aplicación multimedia principal
+& ".\.venv\Scripts\python.exe" main.py
