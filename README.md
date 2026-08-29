@@ -29,10 +29,7 @@ Como usuario,
 Quiero seleccionar múltiples imágenes y definir sus tiempos de duración personalizados,
 Para compilarlas automáticamente en un archivo de video en formato MP4.
 
-HU-04: Previsualización de Resultados
-Como usuario de la herramienta,
-Quiero previsualizar el slideshow generado directamente mediante una ventana emergente,
-Para verificar el resultado antes de finalizar el proceso.
+
 
 
 Arquitectura del Proyecto
