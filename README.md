@@ -15,35 +15,23 @@ Metodología Ágil (Kanban)Justificación:Duración y Flexibilidad: Dado el marc
 
 Historias de Usuario (User Stories)
 HU-01: Reproducción de Video Local
-
 Como usuario de la aplicación,
-
 Quiero seleccionar y cargar un archivo de video local mediante un explorador de archivos,
-
 Para reproducirlo de forma controlada en la interfaz gráfica.
 
 HU-02: Control de Reproducción Multimedia
-
 Como usuario del sistema,
-
 Quiero utilizar botones de reproducción, pausa y reanudación,
-
 Para gestionar la visualización de los fotogramas del video en tiempo real.
 
 HU-03: Generación Automática de Slideshows
-
 Como usuario,
-
 Quiero seleccionar múltiples imágenes y definir sus tiempos de duración personalizados,
-
 Para compilarlas automáticamente en un archivo de video en formato MP4.
 
 HU-04: Previsualización de Resultados
-
 Como usuario de la herramienta,
-
 Quiero previsualizar el slideshow generado directamente mediante una ventana emergente,
-
 Para verificar el resultado antes de finalizar el proceso.
 
 
