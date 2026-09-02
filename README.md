@@ -27,7 +27,7 @@ multimedia-project/ ├── main.py # Código fuente principal (Reproductor de
 
 
 
-<img width="565" height="272" alt="image" src="https://github.com/user-attachments/assets/fbd8c344-8de8-4466-b990-a389a243cb25" />
+
 
 <img width="1006" height="1600" alt="image" src="https://github.com/user-attachments/assets/5fd109d1-c1cb-48c6-b164-7d4f88e8c0bc" />
 
