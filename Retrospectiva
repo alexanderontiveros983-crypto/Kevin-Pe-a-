@@ -1,9 +1,21 @@
-
 Retrospectiva del Proyecto - Práctica 1
 
-¿Qué funcionó bien?La división del código en dos módulos visuales claros (videoGUI y el generador de slideshows) facilitó la separación de responsabilidades y la integración de las librerías gráficas y multimedia.El uso de GitHub Projects nos ayudó a distribuir las tareas de manera transparente y organizada entre los integrantes del equipo. La validación interactiva mediante ventanas emergentes (messagebox) permitió mejorar la retroalimentación visual hacia el usuario durante la carga de archivos.
+Análisis de Éxitos y Buenas Prácticas
+Arquitectura modular: La separación del sistema en dos componentes visuales independientes (videoGUI y el generador de slideshows) permitió aislar la lógica multimedia de la interfaz, facilitando las pruebas unitarias y la integración de las librerías gráficas.
 
-¿Qué no funcionó o generó retrasos?La sincronización de los tiempos de los fotogramas y la gestión de rutas relativas para las imágenes iniciales generaron pequeñas inconsistencias iniciales.La resolución de conflictos menores de Git al momento de sincronizar los archivos generados automáticamente de video (slide_show.mp4).
+Gestión ágil del flujo de trabajo: El uso de GitHub Projects optimizó la visibilidad de las tareas pendientes, en curso y finalizadas, garantizando una distribución equitativa del trabajo entre los integrantes del equipo.
 
-¿Qué mejoras implementaremos para el siguiente proyecto?Configurar adecuadamente el archivo .gitignore desde la primera sesión para evitar subir archivos caché innecesarios o salidas de video temporales.Establecer convenciones de mensajes de commit más estandarizadas vinculadas directamente al número de Issue de GitHub Projects para mejorar el control de versiones colaborativo.
+Experiencia de usuario (UX): La incorporación de validaciones interactivas mediante cuadros de diálogo (messagebox) redujo los errores de manipulación de archivos y ofreció alertas claras en tiempo real.
+
+2. Obstáculos y Retos Identificados
+Control de concurrencia y multimedia: La sincronización precisa de los fotogramas presentó discrepancias temporales al procesar recursos multimedia de diferentes tasas de muestreo. Asimismo, el manejo de rutas relativas causó fallos de carga en entornos de ejecución distintos al equipo de desarrollo principal.
+
+Gestión de versiones: La inclusión accidental de archivos binarios y salidas de video temporales (slide_show.mp4) en el repositorio remoto provocó bloqueos operativos y conflictos recurrentes en las fusiones (merges) de Git.
+
+3. Plan de Acción y Mejoras Tecnológicas
+Optimización del control de cambios: Implementar un archivo .gitignore estricto desde la fase de inicialización del repositorio para bloquear cachés de compilación, archivos del sistema operativo y artefactos de video temporales.
+
+Estandarización de commits: Adoptar un formato estricto de mensajes de confirmación (por ejemplo, [Issue #XX] Descripción del cambio) para mantener una trazabilidad directa entre el historial de Git y las tareas planificadas en la gestión de proyectos.
+
+
 
