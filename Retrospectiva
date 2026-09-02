@@ -1,6 +1,6 @@
 Retrospectiva del Proyecto - Práctica 1
 
-Análisis de Éxitos y Buenas Prácticas
+1-.Análisis de Éxitos y Buenas Prácticas
 Arquitectura modular: La separación del sistema en dos componentes visuales independientes
 (videoGUI y el generador de slideshows) permitió aislar la lógica multimedia de la interfaz, facilitando las pruebas unitarias 
 y la integración de las librerías gráficas.
