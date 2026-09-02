@@ -1,6 +1,5 @@
 
 # Video Player
-
 # imported necessary library
 import tkinter
 from tkinter import *
