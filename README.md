@@ -25,9 +25,7 @@ Para reproducirlo de forma controlada en la interfaz gráfica.
 Arquitectura del Proyecto
 multimedia-project/ ├── main.py # Código fuente principal (Reproductor de video y generador de slideshows) ├── README.md # Documentación técnica del repositorio ├── Images/ # Carpeta de recursos gráficos (front.jpg, second.png) └── slide_show.mp4 # Archivo de video generado automáticamente por el sistema
 
-Instrucciones de Ejecución
-Clonar el repositorio:
-<img width="821" height="191" alt="image" src="https://github.com/user-attachments/assets/35d4013a-5b5f-4f7d-94ce-3d29920d6ddd" />
+
 
 <img width="565" height="272" alt="image" src="https://github.com/user-attachments/assets/fbd8c344-8de8-4466-b990-a389a243cb25" />
 
