@@ -19,16 +19,6 @@ Como usuario de la aplicación,
 Quiero seleccionar y cargar un archivo de video local mediante un explorador de archivos,
 Para reproducirlo de forma controlada en la interfaz gráfica.
 
-HU-02: Control de Reproducción Multimedia
-Como usuario del sistema,
-Quiero utilizar botones de reproducción, pausa y reanudación,
-Para gestionar la visualización de los fotogramas del video en tiempo real.
-
-HU-03: Generación Automática de Slideshows
-Como usuario,
-Quiero seleccionar múltiples imágenes y definir sus tiempos de duración personalizados,
-Para compilarlas automáticamente en un archivo de video en formato MP4.
-
 
 
 
